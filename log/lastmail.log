@@ -1,0 +1,8 @@
+LOG: MAIN
+  <= sm5-6782@sm5.bitte-hosting.com U=sm5-6782 P=local S=470
+delivering 1QIgMm-0001k9-6J
+T: spamassassin_pipe for via@v-design.kiev.ua
+LOG: MAIN
+  => via <via@v-design.kiev.ua> R=spamcheck_router T=spamcheck
+LOG: MAIN
+  Completed

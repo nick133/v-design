@@ -1,0 +1,22 @@
+#
+# Apache access rights
+#
+
+DirectoryIndex index.html index.pl
+Options -Indexes ExecCGI FollowSymLinks
+
+Order allow,deny
+Allow from all
+
+<FilesMatch "\.(psd|tmp|bak|log)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} portfolio\.html$ [NC]
+RewriteRule ^.*$ cgi-bin/portfolio.pl [L]
+
+RewriteCond %{REQUEST_URI} portfolio[0-9]+\.html$ [NC]
+RewriteRule ^.*portfolio([0-9]+)\.html$ cgi-bin/portfolio.pl?p=$1 [L]

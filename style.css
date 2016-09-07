@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  border: 0;
+}
+body {
+  background: #151306 url("images/main-bg.gif");
+}
+#mainbox {
+  margin: auto;
+  border: solid 1px #251813;
+  width: 968px;
+  background: url("images/main-head.jpg") 0% 0% no-repeat;
+  text-align: center;
+  font: normal 7pt Verdana, Tahoma, Arial;
+  color: #584220;
+}
+#ptitle {
+  float: right;
+}
+.content p {
+  clear: both;
+  margin: 10px 16px;
+}
+.content {
+  width: 739px;
+  padding-left: 125px;
+  text-align: left;
+  vertical-align: top;
+}
+#content {
+  background: url("images/main-gfx.jpg");
+}
+#content2 {
+  background: url("images/main-gfx2.jpg");
+}
+#body-contacts {
+  color: #ae8d64;
+  font: normal 16pt Verdana, Tahoma, Arial;
+  line-height: 180%;
+}
+#body-contacts a {
+  color: #ae8d64;
+  font: normal 16pt Verdana, Tahoma, Arial;
+  text-decoration: none;
+}
+#body-contacts a:hover {
+  text-decoration: underline;
+}
+form#sendmail {
+  margin-left: 16px;
+}
+#formtitle {
+  width: 495px;
+  margin: 32px 0 0 16px;
+  border-top: dashed 1px #5c4322;
+  padding: 20px 0;
+  color: #ae8d64;
+  font: normal 14pt Verdana, Tahoma, Arial;
+}
+.field {
+  color: #ae8d64;
+  font: normal 13pt Verdana, Tahoma, Arial;
+}
+#mailfrom, #mailbody, #mailsubj {
+  border: solid 2px #5c4322;
+  color: #030303;
+  font: bold 12pt Tahoma, Arial;
+}
+#mailfrom, #mailsubj {
+  width: 250px;
+  background: #b99a65;
+}
+#mailbody {
+  margin-top: 10px;
+  width: 520px;
+  height: 102px;
+  background: #987d4f;
+  
+  scrollbar-face-color: #5C4322;
+  scrollbar-shadow-color: #000000;
+  scrollbar-darkshadow-color: #000000;
+  scrollbar-highlight-color: #5C4322;
+  scrollbar-3dlight-color: #5C4322;
+  scrollbar-track-color: #987D4F;
+  scrollbar-arrow-color: #B99A65;
+}
+#send {
+  width: 110px;
+  color: #030303;  
+  background: #987d4f;
+  border: double 3px #5c4322;
+  font: bold 10pt Tahoma, Arial;
+}
+ul.services {
+  margin: 80px 58px 30px 35px;
+  color: #ae8d64;
+  font: normal 14pt Tahoma, Arial;
+  list-style-image: url("images/list-dot.gif");
+}
+ul.services p {
+  margin: 10px 8px;
+  line-height: 120%;
+}
+p.services {
+  margin: 16px 58px 16px 35px;
+  color: #ae8d64;
+  font: normal 14pt Tahoma, Arial;
+}
+p.articles {
+  margin: 80px 58px 30px 35px;
+  color: #ae8d64;
+  font: bold 12pt Tahoma, Arial;
+}
+div.portfolio {
+  width: 540px;
+  height: 410px;
+  margin: 72px 0 0 16px;
+  padding-left: 6px;
+  color: #ae8d64;
+  font: bold 12pt Tahoma, Arial;
+
+  scrollbar-face-color: #5C4322;
+  scrollbar-shadow-color: #000000;
+  scrollbar-darkshadow-color: #000000;
+  scrollbar-highlight-color: #5C4322;
+  scrollbar-3dlight-color: #5C4322;
+  scrollbar-track-color: #987D4F;
+  scrollbar-arrow-color: #B99A65;
+}
+div.pthumb {
+  float: left;
+  margin: 5px;
+  width: 161px;
+  height: 122px;
+  background-color: #987D4F;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#pagebar {
+  margin-left: 4px;
+  clear: both;
+  color: #997543;
+  font: normal 8pt Tahoma, Arial;
+}
+#pagebar a {
+  color: #ae8d64;
+  font: bold 8pt Tahoma, Arial;
+  text-decoration: none;
+}
+#pagebar a:hover {
+  text-decoration: underline;
+}
+table.main {
+  height: 564px;
+  margin-top: 113px;
+  clear: both;
+}
+div.thumbs {
+  padding-bottom: 10px;
+  border-top: solid 1px #251813;
+  background: #251F13 url("images/thumbs-bg.gif") repeat-x;
+}
+table.thumbs {
+  margin: auto;
+}
+.thumbs  td {
+  padding: 22px 12px;
+  text-align: center;
+}
+.thumbs img {
+  border: solid 1px #31241F;
+  padding: 5px;
+}
+.nav {
+  float: right;
+}
+#empty-bottom {
+  padding: 25px 0 12px 0;
+  border-top: solid 1px #251813;
+  background: #251F13 url("images/thumbs-bg.gif") repeat-x;
+  text-align: center;
+}
+.highslide-heading {
+  font-size: 19pt;
+}
+.highslide-body p {
+  margin-top: 18px;
+  text-indent: 24px;
+  font-weight: normal;
+  font-size: 12pt;
+  line-height: 140%;
+  color: #000;
+}
+ul.articles {
+  padding: 85px 10px 30px 25px;
+}
+.articles li {
+  color: #BFA66E;
+  padding: 4px 0px;
+}
+.articles p:first-letter {
+  font-size: 14pt;
+  color: #666;
+}
+.articles a {
+  font: bold 12pt Tahoma, Arial;
+  color: #BFA66E;
+  text-decoration: none;
+}
+.articles a:hover {
+  color: yellow;
+}
